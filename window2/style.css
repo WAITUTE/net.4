@@ -1,0 +1,58 @@
+#myLabel {
+    display: block;
+    text-align: right;
+    font-size : 20px;
+
+}
+#decrease {
+    display: inline-block;
+    text-align: left;
+    font-size : 20px;
+
+}
+#increase {
+    display: inline-block;
+    text-align: right;
+    font-size : 20px;
+
+}
+#myDiv{
+    background-color: rgb(221, 44, 44);
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 1px;
+}
+
+#myImg{
+    
+    width: 300px;
+    
+}
+.myDiv {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+ .cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+
+ }
+ #gameContainer{
+    font-family: 'Permanent Marker',  cursive;
+    text-align: center;
+ }
+ #cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+ }
